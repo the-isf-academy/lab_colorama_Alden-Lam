@@ -23,6 +23,10 @@
 				<a href="{% url 'color_app:random_color' %}">choose another</a>.
 			</p>
       {% include "color_app/swatch.html" %}
+
+      <a href="{% url 'color_app:index'%}">
+        Back to home
+      </a>
     </div>
   </div>
 {% endblock %}
